@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const NavContainer = styled.header`
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   z-index: 99;
 `;
 
@@ -14,7 +14,7 @@ export const NavInnerContainer = styled.div`
   align-items: center;
   padding: 0 2rem;
   height: 10vh;
-  max-width: 1300px;
+  max-width: 1250px;
   margin: auto;
 `;
 

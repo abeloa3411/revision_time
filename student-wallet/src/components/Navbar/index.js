@@ -44,7 +44,7 @@ const Navbar = () => {
                   <NavLink to="/login">Login</NavLink>
                 </Button>
               </li>
-              <li style={{ listStyle: "none", marginRight: "2rem" }}>
+              <li style={{ listStyle: "none" }}>
                 <Button primary>
                   <NavLink to="/login">Get Started</NavLink>
                 </Button>
