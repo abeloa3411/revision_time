@@ -93,26 +93,6 @@ const Courses = () => {
                   <CardActions>These are the card actions</CardActions>
                 </CardInfo>
               </Card>
-              <Card>
-                <CardImg>
-                  <Image src={require("../../images/banner.webp")} alt="card" />
-                </CardImg>
-                <CardInfo>
-                  <Title>Strategic Mngt</Title>
-                  <Rating>The Ratind component</Rating>
-                  <CardActions>These are the card actions</CardActions>
-                </CardInfo>
-              </Card>
-              <Card>
-                <CardImg>
-                  <Image src={require("../../images/banner.webp")} alt="card" />
-                </CardImg>
-                <CardInfo>
-                  <Title>Strategic Mngt</Title>
-                  <Rating>The Ratind component</Rating>
-                  <CardActions>These are the card actions</CardActions>
-                </CardInfo>
-              </Card>
             </CardsWrapper>
           </CoursesCardsContainer>
         </CoursesInnerContainer>

@@ -33,6 +33,11 @@ export const CoursesH1 = styled.h1`
     margin-top: 1rem;
     border-radius: 8px;
   }
+
+  @media screen and (max-width: 580px) {
+    font-size: 15px;
+    margin-bottom: -10%;
+  }
 `;
 export const Title = styled.h1`
   font-size: 20px;
@@ -42,18 +47,23 @@ export const Title = styled.h1`
 export const CoursesBtn = styled.div``;
 export const CoursesCardsContainer = styled.div`
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 export const CardsWrapper = styled.div`
   display: grid;
   grid-gap: 16px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 4rem;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: 1fr;
+  }
 `;
 export const Card = styled.div`
-  max-width: 290px;
+  max-width: 350px;
   border-radius: 10px;
   box-shadow: 4px 4px 12px 5px rgba(0, 0, 0, 0.2);
   position: relative;

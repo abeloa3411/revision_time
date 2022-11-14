@@ -1,5 +1,9 @@
 import React from "react";
+import BlogSection from "../components/blog";
 import Courses from "../components/courses";
+import Feedback from "../components/feedback";
+import Find from "../components/find";
+import Footer from "../components/footer";
 import Hero from "../components/hero";
 import Info from "../components/info";
 import Navbar from "../components/Navbar";
@@ -14,7 +18,11 @@ const Landing = () => {
       <Hero />
       <Info />
       <Courses />
+      <Find />
+      <Feedback />
+      <BlogSection />
       <Newsletter />
+      <Footer />
     </>
   );
 };

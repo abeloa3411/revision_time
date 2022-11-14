@@ -26,8 +26,13 @@ const Newsletter = () => {
             </InfoP>
           </Info>
           <InfoInput>
-            <Input />
-            <Button>subscribe</Button>
+            <Input type="text" placeholder="Enter your email" />
+            <Button
+              primary
+              style={{ boxShadow: "3px 3px 3px rgba(0,0,0,0.2)" }}
+            >
+              subscribe
+            </Button>
           </InfoInput>
         </InnerContainer>
       </LetterContainer>
