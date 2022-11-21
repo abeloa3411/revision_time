@@ -15,7 +15,12 @@ export const FindInnerContainer = styled.div`
   }
 `;
 
-export const FindInfo = styled.div``;
+export const FindInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+`;
 
 export const FindTitle = styled.div`
   position: relative;
@@ -31,8 +36,8 @@ export const FindH1 = styled.h1`
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-top: 1rem;
     border-radius: 8px;
+    margin-bottom: -0.7rem;
   }
 
   @media screen and (max-width: 580px) {

@@ -6,10 +6,14 @@ export const BlogContainer = styled.section`
 export const BlogInnerContainer = styled.div`
   max-width: 1200px;
   margin: auto;
-  /* padding: 3rem 0; */
   margin-bottom: 2rem;
 `;
-export const BlogTitle = styled.div``;
+export const BlogTitle = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+`;
 export const Title = styled.h1``;
 export const BtnContainer = styled.div``;
 export const BlogSlideContainer = styled.div``;
