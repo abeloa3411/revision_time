@@ -31,7 +31,7 @@ const Navbar = () => {
                 <NavLink to="/exams">Home</NavLink>
               </li>
               <li style={{ listStyle: "none", marginRight: "2rem" }}>
-                <NavLink to="/cats">Exams</NavLink>
+                <NavLink to="/exams">Exams</NavLink>
               </li>
               <li style={{ listStyle: "none", marginRight: "2rem" }}>
                 <NavLink to="/cats">Cats</NavLink>
@@ -46,7 +46,7 @@ const Navbar = () => {
               </li>
               <li style={{ listStyle: "none" }}>
                 <Button primary>
-                  <NavLink to="/login">Get Started</NavLink>
+                  <NavLink to="/signup">Get Started</NavLink>
                 </Button>
               </li>
             </ul>

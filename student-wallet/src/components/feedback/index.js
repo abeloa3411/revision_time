@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../../GlobalStyles";
+import Rating from "../rating/rating";
 import {
   Avatar,
   AvatarContainer,
@@ -12,7 +13,6 @@ import {
   FeedbackTitle,
   Image,
   InnerContainer,
-  Rating,
   RatingContainer,
   StudentInfo,
   StudentName,
@@ -47,7 +47,7 @@ const Feedback = () => {
             </FeedbackP>
             <FeedbackActions>
               <RatingContainer>
-                <Rating>Rating component</Rating>
+                <Rating rating={4} />
               </RatingContainer>
               <ButtonContainer>
                 <Button>Next</Button>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const CoursesContainer = styled.section`
   width: 100%;
@@ -26,7 +27,7 @@ export const CoursesH1 = styled.h1`
     content: "";
     width: 80px;
     height: 5px;
-    background: blue;
+    background: linear-gradient(90deg, #c7c5f4, #776bcc);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -65,16 +66,16 @@ export const CardsWrapper = styled.div`
 export const Card = styled.div`
   max-width: 350px;
   border-radius: 10px;
-  box-shadow: 4px 4px 12px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
   position: relative;
+  margin-bottom: 2rem;
 `;
-export const CardImg = styled.div``;
-export const Image = styled.img`
-  width: 100%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+export const DownloadLink = styled(Link)`
+  text-decoration: none;
+  color: white;
 `;
-export const Rating = styled.div`
+
+export const RatingContainer = styled.div`
   padding: 0.5rem 0;
 `;
 export const CardActions = styled.div``;
@@ -87,10 +88,10 @@ export const CardInfo = styled.div`
     position: absolute;
     width: 40px;
     height: 20px;
-    background: blue;
+    background: linear-gradient(90deg, #c7c5f4, #776bcc);
     border-radius: 5px;
     color: white;
-    top: -10%;
+    top: -5%;
     right: 5%;
   }
 `;

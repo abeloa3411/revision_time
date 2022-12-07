@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FeedbackContainer = styled.section`
   width: 100%;
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 15vh;
 `;
 export const InnerContainer = styled.div`
   display: grid;
@@ -37,12 +37,12 @@ export const Title = styled.h1`
     content: "";
     width: 80px;
     height: 5px;
-    background: blue;
+    background: linear-gradient(90deg, #c7c5f4, #776bcc);
     position: absolute;
     bottom: 0;
     left: 0;
     border-radius: 8px;
-    margin-bottom: -0.7rem;
+    margin-bottom: -0.5rem;
   }
 `;
 export const StudentInfo = styled.div``;
@@ -54,7 +54,9 @@ export const Avatar = styled.img`
   object-fit: cover;
 `;
 export const StudentName = styled.strong``;
-export const FeedbackP = styled.div``;
+export const FeedbackP = styled.div`
+  line-height: 1.6;
+`;
 export const FeedbackActions = styled.div`
   display: flex;
   justify-content: space-between;

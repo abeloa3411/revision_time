@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const BlogContainer = styled.section`
   width: 100%;
+  margin-bottom: 15vh;
 `;
 export const BlogInnerContainer = styled.div`
   max-width: 1200px;

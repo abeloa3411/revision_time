@@ -29,7 +29,7 @@ const Hero = () => {
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Aliquam fugiat sint voluptate.
               </HeroP>
-              <div>
+              <div style={{ display: "flex", width: "70%" }}>
                 <HeroInput type="text" placeholder="Search for papers..." />
                 <Button primary>Search</Button>
               </div>

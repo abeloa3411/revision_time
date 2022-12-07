@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const FindContainer = styled.section`
   width: 100%;
+  margin-bottom: 15vh;
 `;
 export const FindInnerContainer = styled.div`
   max-width: 1200px;
@@ -18,8 +19,9 @@ export const FindInnerContainer = styled.div`
 export const FindInfo = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
+  padding-bottom: 3rem;
 `;
 
 export const FindTitle = styled.div`
@@ -32,7 +34,7 @@ export const FindH1 = styled.h1`
     content: "";
     width: 80px;
     height: 5px;
-    background: blue;
+    background: linear-gradient(90deg, #c7c5f4, #776bcc);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -52,7 +54,7 @@ export const FindDescription = styled.div`
   line-height: 1.6;
 `;
 export const ButtonContainer = styled.div`
-  margin-top: 3rem;
+  margin-top: 2rem;
 `;
 export const FindImage = styled.div``;
 export const Image = styled.img`

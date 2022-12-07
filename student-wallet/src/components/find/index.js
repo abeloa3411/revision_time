@@ -12,6 +12,7 @@ import {
   Image,
 } from "./FindStyles";
 import { Button } from "../../GlobalStyles";
+import { Link } from "react-router-dom";
 
 const Find = () => {
   return (
@@ -34,7 +35,14 @@ const Find = () => {
               </FIndP>
             </FindDescription>
             <ButtonContainer>
-              <Button primary>Get started</Button>
+              <Button primary>
+                <Link
+                  to="/signup"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+                  Get started
+                </Link>
+              </Button>
             </ButtonContainer>
           </FindInfo>
           <FindImage>

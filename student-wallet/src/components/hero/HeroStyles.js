@@ -25,12 +25,22 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroInput = styled.input`
-  outline: none;
-  padding: 10px 20px;
   border: none;
-  color: #000;
-  border-radius: 4px;
-  background: #f0f0f0;
+  border-bottom: 2px solid #d1d1d4;
+  padding: 10px;
+  background: none;
+  padding-left: 24px;
+  font-weight: 700;
+  width: 100%;
+  transition: 0.2s;
+  cursor: pointer;
+
+  &:active,
+  &:focus,
+  &:hover {
+    outline: none;
+    border-color: #6a679e;
+  }
 `;
 
 export const HeroTitle = styled.h1`

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-  background: ${(props) => (props.primary ? "#075ce6" : "white")};
+  background: ${(props) =>
+    props.primary ? "linear-gradient(90deg, #c7c5f4, #776bcc)" : "white"};
   color: ${(props) => (props.primary ? "#fff" : "#075ce6")};
 
   font-size: 1em;
