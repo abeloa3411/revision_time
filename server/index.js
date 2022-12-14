@@ -1,11 +1,17 @@
 import express from "express";
-import exams from "./routes/exams.js"
+import exams from "./routes/exams.js";
+import path from "path";
 
 const app = express();
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.use("/api/exams",exams)
+const __dirname = path.resolve();
+
+app.use(express.static(path.join(__dirname, "/student-wallet/build")));
+
+app.use("/api/exams", exams);
 
 const PORT = 5000;
 

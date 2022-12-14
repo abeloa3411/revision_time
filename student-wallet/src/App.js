@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Cats from "./components/cats";
 import Exams from "./components/exams";
 import Login from "./components/login";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/exams" element={<Exams />} />
+          <Route path="/cats" element={<Cats />} />
         </Routes>
       </BrowserRouter>
     </>

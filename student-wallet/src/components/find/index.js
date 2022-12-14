@@ -37,7 +37,7 @@ const Find = () => {
             <ButtonContainer>
               <Button primary>
                 <Link
-                  to="/signup"
+                  to="/signup "
                   style={{ textDecoration: "none", color: "#fff" }}
                 >
                   Get started

@@ -5,4 +5,4 @@ const router = express.Router();
 
 router.route("/").get(getExams);
 
-export default router
+export default router;
