@@ -14,6 +14,10 @@ export const InfoItems = styled.div`
   display: grid;
   margin-left: 2rem;
   grid-template-columns: 1fr 1fr 1fr;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const InfoItem = styled.div`

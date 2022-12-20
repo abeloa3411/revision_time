@@ -19,12 +19,8 @@ import {
 import Rating from "../rating/rating";
 import { RatingContainer, Title } from "../courses/CoursesStyles";
 import { Button } from "../../GlobalStyles";
-import axios from "axios";
 
 const Exams = () => {
-  const download = async () => {
-    await axios.get("/api/exams");
-  };
   return (
     <>
       <ExamContainer>
