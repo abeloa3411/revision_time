@@ -1,3 +1,4 @@
+import axios from "axios";
 import React from "react";
 import { Button } from "../../GlobalStyles";
 import Rating from "../rating/rating";
@@ -19,6 +20,10 @@ import {
 } from "./CoursesStyles";
 
 const Courses = () => {
+  const download = async () => {
+    await axios.get("http://localhost:5000/api/exams");
+    console.log("clicked");
+  };
   return (
     <>
       <CoursesContainer>
@@ -42,8 +47,8 @@ const Courses = () => {
                   <RatingContainer>
                     <Rating rating={5} />
                   </RatingContainer>
-                  <Button primary>
-                    <DownloadLink to="/download">Download</DownloadLink>
+                  <Button primary onClick={download}>
+                    Download
                   </Button>
                 </CardInfo>
               </Card>

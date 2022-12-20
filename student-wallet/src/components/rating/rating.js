@@ -8,7 +8,7 @@ const Rating = ({ rating, onClick }) => {
         return (
           <span
             key={i}
-            onclick={() => {
+            onClick={() => {
               onClick(i);
             }}
           >

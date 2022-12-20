@@ -12,7 +12,10 @@ export const InfoInnerContainer = styled.div`
 
 export const InfoItems = styled.div`
   display: grid;
+  margin-left: 2rem;
   grid-template-columns: 1fr 1fr 1fr;
 `;
 
-export const InfoItem = styled.div``;
+export const InfoItem = styled.div`
+  display: flex;
+`;
